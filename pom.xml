@@ -11,11 +11,11 @@
 	<groupId>com.steticcli</groupId>
 	<artifactId>Stetic-Cli</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>Stetic-Cli</name>
 	<description>Sistema de controle de clinicas de estetica</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
