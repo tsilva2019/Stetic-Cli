@@ -21,7 +21,7 @@ public class Telefone {
 	private String numero;
 	
 	@JsonIgnore
-	@ManyToOne
+	@ManyToOne(optional = false)
 	@JoinColumn(foreignKey = @ForeignKey(name="usuario_id"))
 	private Usuario usuario;
 
